@@ -1,9 +1,13 @@
+import ConsultationForm from "@/components/Form/StoryForm"
+
 
 
 const Story = () => {
 
     return (
-        <div>Story</div>
+         <main className="min-h-screen bg-gray-50">
+      <ConsultationForm />
+    </main>
     )
 }
 

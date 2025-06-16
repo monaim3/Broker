@@ -18,7 +18,7 @@ const Header: React.FC<HeaderProps> = ({
       <div className="container mx-auto px-4 py-4">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <div>
-         <Image src={logo} alt="Logo" width={150} height={150} />
+       <Link href="/">  <Image src={logo} alt="Logo" width={150} height={150} /></Link>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-3">
